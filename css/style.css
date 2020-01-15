@@ -1,0 +1,371 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+
+}
+.container {
+	margin: 0 auto;
+	width:1140px;
+}
+header{
+	width: 100%;
+	float: left;
+
+	}
+.logo {
+  width:17%;
+  float:left;
+}
+
+.logo a img {
+	height:80px;
+
+}
+
+.menu{
+	width:60%;
+	float:left;
+}
+
+nav ul {
+	list-style: none;
+}
+ 
+nav ul li {
+	display: inline-block;
+	font-size:20px; 
+	margin:10px 20px 10px 0px;
+	padding-top: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.social-icons{
+	width:23% ;
+	float: left;
+}
+
+.social-icons ul {
+	list-style: none;
+
+}
+
+.social-icons ul li {
+	display: inline-block;
+	margin: 10px 10px 10px 0px;
+	font-size: 15px;
+	padding top:15px;
+}
+
+.social-icons ul li a {
+	text-decoration: none;
+}
+
+.fa.fa-facebook{
+	
+    padding: 5px 8px;
+    background: black;
+    color: white;
+    transition: 0.7s ease-in-out
+}
+ 
+.fa.fa-facebook:hover {
+	transform: rotate(360deg);
+
+                        
+
+}
+
+.fa.fa-twitter{
+	
+    padding: 5px 8px;
+    background: black;
+    color: white;
+    transition: 0.7s ease-in-out
+
+}
+
+.fa.fa-twitter:hover {
+	transform: rotate(360deg);
+}
+.fa.fa-linkedin{
+	
+    padding: 5px 8px;
+    background: black;
+    color: white;
+    transition: 0.7s ease-in-out
+
+}
+.fa.fa-linkedin:hover {
+	transform: rotate(360deg);
+}
+
+.fa.fa-google-plus{
+	
+    padding: 5px 8px;
+    background: black;
+    color: white;
+    transition: 0.7s ease-in-out
+
+}
+.fa.fa-google-plus:hover {
+	transform: rotate(360deg);
+
+}
+.fa.fa-signed-in{
+	
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+/*banner section starts from here*/
+
+.banner{
+	width: 100%;
+	float:left;
+	
+	}
+
+.one {
+	background-image: url(../img/bg.jpeg);
+	width: 1140px;
+	height: 400px;
+	margin: auto;
+
+	background-size: cover;
+	
+}
+.box{
+
+	background-color: rgb(0,0,0,0.31);
+	width: 410px;
+	margin-top: 0px;
+	margin-left: 25px;
+
+}
+section div div h1 {font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+section div div p {
+	padding: 15px;
+	text-align: left;
+	font-size: 15px;
+}
+	
+	
+
+
+.button {
+	display: inline-block;
+         border-color: transparent;
+         color: white;
+         background-color: green;
+         border-radius: 6px;
+         
+         font-size: 20px;
+         padding: 10px;
+         text-decoration: none;
+}
+
+
+
+}
+
+
+ 
+
+/* Description part starts*/
+.description {
+	width: 100%;
+	float:left;
+}
+
+.concept {
+	width: 25%;
+	float: left;
+	height: 300px;
+	display: inline-block;
+	
+}
+
+.fa.fa-globe {
+	color: darkgreen;
+	background-color: white;
+	font-size: 50px;
+	border-color: transparent;
+	border-radius: 26%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px;
+
+}
+.local-loans {
+	width: 25%;
+	float: left;
+	height: 300px;
+	display: inline-block;
+	
+	
+	}
+.fa.fa-map-marker {
+	text-align: center;
+	color: white;
+	background-color: darkgreen;
+	font-size: 25px;
+	border-color: transparent;
+	border-radius: 26%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px ;
+
+
+}	
+.btr-fnce {
+	width: 25%;
+	float: left;
+	height: 300px;
+	display: inline-block;
+	
+}
+
+.fa.fa-money {
+	color: white;
+	background-color: darkgreen;
+	font-size: 25px;
+	border-color: transparent;
+	border-radius: 26%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px;
+
+}
+.sign-up {
+	width: 25%;
+	float: left;
+	height: 300px;
+	display: inline-block;
+}
+.fa.fa-user-plus {
+	color: white;
+	background-color: darkgreen;
+	font-size: 25px;
+	border-color: transparent;
+	border-radius: 26%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px;
+
+}
+
+.howitworks {
+	width: 100%;
+	float: left;
+}
+.invest {
+	width: 50%;
+	float: left;
+	
+	}
+
+.i-one {
+	background: powderblue;
+	width: 400px;
+	padding: 30px 25px;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 31px;
+
+	
+}
+/* Blog section */
+
+.gallery{
+	width: 100%;
+	float: left;
+}
+ .blog {
+ 	width: 50%;
+ 	float: left;
+ }
+
+ h2 {
+ 	text-align: center;
+ 	color: black;
+ }
+ .gallery-one{
+ 	width: 50%;
+ 	float: left;
+ 
+	
+	width: 400px;
+	padding: 30px 25px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/*achivement section*/
+
+.achivements{
+	width: 100%;
+	float: left;
+}
+.con-a{
+	width: 1140px;
+	margin: 0 auto;
+	background: lightgrey;
+}
+.achive{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+ }
+.achive-spacing{
+	padding: 3px;
+}
+.rating {
+	width: 100%;
+	float: left;
+}
+.star-center{
+	font-size: 25px;
+	text-align: center;
+}
+.fa.fa-star{
+	color: lightgreen;
+}
+.star-btn {
+	text-align: center;
+}
+.star-btn ul{
+	list-style: none;
+}
+
+.star-btn ul li{
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+.fa.fa-star-o{
+	margin-top: 10px;
+	background: green;
+	color: #fff;
+	padding: 6px 9px;
+}
+
+
